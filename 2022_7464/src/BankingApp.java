@@ -65,7 +65,7 @@ public class BankingApp {
         // loop runs until number 5 is not pressed to exit  
         int ch;  
         do {  
-            System.out.println("\n **Banking System Application**");  
+            System.out.println("\n **Mobile Banking System Application**");  
             System.out.println("1. Display all account details \n 2. Search by Account number\n 3. Deposit the amount \n 4. Withdraw the amount \n 5.Exit ");  
             System.out.println("Enter your choice: ");  
             ch = sc.nextInt();  
@@ -120,7 +120,7 @@ public class BankingApp {
                         }  
                         break;  
                     case 5:  
-                        System.out.println("See you soon...");  
+                        System.out.println("Thank you for using Mobile Banking..");  
                         break;  
                 }  
             }  
